@@ -51,6 +51,15 @@ a {
     justify-content: center;
 }
 /* Header */
+.fixed-header {
+    background: #e6f0ff;
+    padding-top: 2.6rem;
+    position: sticky;
+    top: -2.6rem;
+    z-index: 1;
+    opacity: 0.9;
+}
+
 .header {
     position: relative;
     background: #e6f0ff;
@@ -60,7 +69,7 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 3.8rem;
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -96,7 +105,7 @@ a {
 }
 
 .hero {
-    margin-top: 13rem;
+   padding-top: 13rem;
 }
 
 .hero .sub-title {
