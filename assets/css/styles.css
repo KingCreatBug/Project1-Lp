@@ -160,11 +160,22 @@ a {
 
 .clients .image {
     display: flex;
-    margin-top: 9.6rem;
+    margin-top: 7rem;
     justify-content: space-between;
     /* align-items: center; */
 }
 
+.clients .image a{
+    display: flex;
+    align-items: center;
+    height: 11rem;
+    padding: 0 4.2rem;
+    border-radius: 12px;
+}
+
+.clients .image a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+}
 /* Guides */
 .guides {
     margin-top: 2rem;
